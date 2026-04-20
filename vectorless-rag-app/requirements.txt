@@ -1,0 +1,12 @@
+litellm>=1.83.0
+
+#pdf processing
+PyPDF2>=3.0.1
+pymupdf>=1.26.4
+
+streamlit>=1.32.0
+
+python-dotenv>=1.0.1
+pyyaml>=6.0.2
+
+pageindex>=0.1.0
