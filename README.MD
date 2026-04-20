@@ -36,9 +36,16 @@ pageindex-vectorless-rag/
 1. Clone the repo
 git clone https://github.com/shaik23032001/pageindex-vectorless-rag.git
 cd pageindex-vectorless-rag
-2. Install dependencies
+2. Create virtual environment
+python -m venv venv
+Activate it:
+Windows (PowerShell)
+venv\Scripts\activate
+Mac/Linux
+source venv/bin/activate
+3. Install dependencies
 pip install -r requirements.txt
-3. Configure environment variables
+4. Configure environment variables
 
 Create a .env file:
 
@@ -46,8 +53,8 @@ AZURE_OPENAI_ENDPOINT=your_endpoint
 AZURE_OPENAI_API_KEY=your_api_key
 AZURE_OPENAI_DEPLOYMENT=your_model_name
 AZURE_OPENAI_API_VERSION=your_version
-4. Run the app
-streamlit run app.py
+5. Run the app
+python -m streamlit run app.py
 💻 Usage
 Upload a PDF file
 Click Index Document
@@ -82,10 +89,10 @@ Python 3.9+
 Azure OpenAI access
 API credentials
 📈 Future Improvements
-Support for multiple file formats
-Better UI/UX
 Multi-document querying
-Caching & performance optimization
+Performance optimization
+Support for more file types
+UI improvements
 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first.
