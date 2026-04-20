@@ -47,7 +47,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 4. Configure environment variables
 
-Create a .env file:
+Create a .env file first: 
 
 AZURE_OPENAI_ENDPOINT=your_endpoint
 AZURE_OPENAI_API_KEY=your_api_key
